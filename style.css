@@ -4,6 +4,109 @@
     box-sizing:border-box;
 }
 
+[class*="col-"]{
+    padding:0;
+    margin:0;
+}
+
+[class*="grid"]{
+    padding:0;
+    margin:0;
+}
+
 body{
     font-family: 'Outfit', sans-serif;
+    color: #130f40;
+    background-color:#f1f2f6;
+}
+
+/* Utilitity classes */
+
+
+.center{text-align:center;}
+.right{text-align:right;}
+
+.color-text {color:#f9ca24;}
+
+.big-text{
+    font-size:3rem;
+    font-weight:900;
+}
+.medium-text{
+    font-size:2rem;
+    font-weight:400;
+}
+
+
+.copyright{
+    font-size: 0.8rem;
+    opacity: 0.5;
+    font-weight: 100;
+    padding:1rem;
+}
+.padded{padding:1rem;}
+.padded-2{padding:2rem;}
+.padding-b{padding-bottom:1rem;}
+.padding-b-2{padding-bottom:2rem;}
+
+.bg-dark{
+    background-color:#192a56;
+    color:#f5f6fa;
+}
+
+
+.bg-image{
+    background-image:url(/images/beach.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 3rem;
+    background-color:#c7ecee;
+}
+
+
+.bg-header{
+    background-image:url(/images/sunset.jpg);
+    min-height:90vh;
+    background-position:center;
+}
+
+.bg-beach{
+    background-image:url(/images/beach.jpg);
+    min-height:60vh;
+    background-position:center;
+}
+
+.bg-lion{
+    background-image:url(/images/lions.jpg);
+    min-height:60vh;
+    background-position:center;
+}
+
+.bg-rocks{
+    background-image:url(/images/rocks.jpg);
+    min-height:60vh;
+    background-position:center;
+}
+
+
+p{
+    line-height:1.4;
+    font-weight:100;
+    padding-bottom:1rem;
+}
+
+i{
+    padding-bottom:1rem;
+}
+
+footer a{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
+
+footer a, footer p{
+    line-height:1.4;
+    font-weight:100;
+    padding-bottom:1rem;
 }
